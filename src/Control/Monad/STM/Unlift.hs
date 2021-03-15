@@ -26,7 +26,6 @@ module Control.Monad.STM.Unlift
     ) where
 
 import Control.Concurrent.STM (STM)
-import Control.Monad.IO.Unlift
 import Control.Monad.Trans.Identity
 import Control.Monad.Trans.Reader
 import Control.Monad.STM.Class

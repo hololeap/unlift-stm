@@ -12,7 +12,6 @@ a copy of "Control.Monad.IO.Class", modified for the 'STM' monad.)
 module Control.Monad.STM.Class
     ( MonadSTM(..) ) where
 
-import Control.Monad.IO.Class
 import Control.Monad.STM
 import Control.Monad.Trans.Accum
 import Control.Monad.Trans.Class

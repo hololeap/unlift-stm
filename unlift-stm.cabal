@@ -21,7 +21,7 @@ description:
 
 
 homepage:            https://github.com/hololeap/unlift-stm
-bug-reports: https://github.com/hololeap/unlift-stm/issues
+bug-reports:         https://github.com/hololeap/unlift-stm/issues
 
 license:             BSD-2-Clause
 license-file:        LICENSE
@@ -35,6 +35,14 @@ maintainer:          hololeap@users.noreply.github.com
 category:            Concurrency
 extra-source-files:  README.md, CHANGELOG.md
 
+source-repository head
+    type:            git
+    location:        https://github.com/hololeap/unlift-stm
+
+source-repository this
+    type:            git
+    location:        https://github.com/hololeap/unlift-stm
+    tag:             v0.1.0.0
 
 library
   exposed-modules:     Control.Concurrent.STM.Unlift, Control.Monad.STM.Class, Control.Monad.STM.Unlift

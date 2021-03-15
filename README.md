@@ -3,8 +3,13 @@
 ### (un)lifted classes and functions for the STM monad
 
 Lifted and unlifted classes and functions for the STM monad. To get
-started, just import `Control.Concurrent.STM.Unlift`. This is meant to
-be a drop-in replacement for [`Control.Concurrent.STM`][STM].
+started, just:
+
+```
+import Control.Concurrent.STM.Unlift
+```
+
+This is meant to be a drop-in replacement for [`Control.Concurrent.STM`][STM].
 
 This package provides functionality for the STM monad, which is highly
 analagous to the functionalty for the IO monad found in

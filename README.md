@@ -7,9 +7,9 @@ started, just import `Control.Concurrent.STM.Unlift`. This is meant to
 be a drop-in replacement for [`Control.Concurrent.STM`][STM].
 
 This package provides functionality for the STM monad, which is highly
-analagous to the functionalty for the IO monad found
-in `Control.Monad.IO.Class`, `Control.Monad.IO.Unlift`, and
-`UnliftIO.STM`:
+analagous to the functionalty for the IO monad found in
+[`Control.Monad.IO.Class`][MonadIO], [`Control.Monad.IO.Unlift`][MonadUnliftIO],
+and [`UnliftIO.STM`][UnliftIO-STM]:
 
 - `MonadSTM` is a copy of [`MonadIO`][MonadIO] modified for STM
 - `MonadUnliftSTM` is a copy of [`MonadUnliftIO`][MonadUnliftIO] modified for
